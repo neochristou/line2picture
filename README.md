@@ -1,6 +1,8 @@
 # line2picture 
 Wangdrak Dorji, Neophytos Christou, Truong Cai, TaShawn Arabian	
 
+Link to colab notebook: https://colab.research.google.com/drive/1_EEwmpcrobBAgKR5Ry6KTv0jPfYR7rw9?usp=sharing
+
 ## Introduction
 
 We are implementing the GAN described in the paper “Image-to-Image Translation with Conditional Adversarial Networks” by Prof.  Efros’ group at UC Berkeley. Their main objective in this paper is to investigate conditional GAN as a general strategy for solving image-to-image translation problems. They want their network to essentially not only learn the mapping from one image to another, but also learn the loss function that would train this mapping. After showing the theoretical framework, they proceed to show that they can successfully apply this technique to synthesized data such as “label maps, reconstructing objects from edge maps, and colorizing images.” 
